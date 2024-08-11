@@ -72,21 +72,43 @@ import { BiSolidPlaneAlt } from "react-icons/bi";
 import { FaBuilding } from "react-icons/fa6";
 import { HiGlobeAsiaAustralia } from "react-icons/hi2";
 
-
 export const ServicesData = [
   {
-  icon:<BiSolidPlaneAlt />,
-  heading:"choose destination",
-  paragraph:"Work with our travel experts to create a customized itinerary that perfectly matches",
+    icon: <BiSolidPlaneAlt />,
+    heading: "choose destination",
+    paragraph:
+      "Work with our travel experts to create a customized itinerary that perfectly matches",
   },
   {
-  icon:<FaBuilding />,
-  heading:"five star Hotel",
-  paragraph:"enjoy the ultimate in comfort and elegance at our curated selection of five-star hotels.",
+    icon: <FaBuilding />,
+    heading: "five star Hotel",
+    paragraph:
+      "enjoy the ultimate in comfort and elegance at our curated selection of five-star hotels.",
   },
   {
-  icon:<HiGlobeAsiaAustralia />,
-  heading:"air ticketing",
-  paragraph:"enjoy the ultimate in comfort and elegance at our curated selection of five-star hotels.",
+    icon: <HiGlobeAsiaAustralia />,
+    heading: "air ticketing",
+    paragraph:
+      "enjoy the ultimate in comfort and elegance at our curated selection of five-star hotels.",
   },
-  ]
+];
+import travelOne from "/public/travelType/image-01.jpg"
+import travelTwo from "/public/travelType/image-02.jpg"
+import travelThree from "/public/travelType/image-03.jpg"
+export const travelData = [
+  {
+    id: "",
+    image: travelOne,
+    text: "Exploration",
+  },
+  {
+    id: "",
+    image: travelTwo,
+    text: "Exploration",
+  },
+  {
+    id: "",
+    image: travelThree,
+    text: "Exploration",
+  },
+];
