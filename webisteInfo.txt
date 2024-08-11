@@ -1,0 +1,311 @@
+colors:
+bgPrimary:"#FFF9EF",
+bgSecondary: "#FFEFE3";
+orangePrimary:"#FF682C",
+heading:"#2A2848"
+paragraph:"#27244499",
+greenPrimary:"#41B4AE",
+
+box shadow
+box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25) ;
+
+icons:
+
+logo:
+import { FaPaperPlane } from "react-icons/fa";
+<FaPaperPlane />
+
+menuBar
+import { FaBars } from "react-icons/fa6";
+<FaBars />
+
+menuClose
+import { RiCloseLargeLine } from "react-icons/ri";
+<RiCloseLargeLine />
+
+search
+import { CiSearch } from "react-icons/ci";
+<CiSearch />
+
+star
+import { IoMdStar } from "react-icons/io";
+<IoMdStar />
+
+half star
+import { IoMdStarHalf } from "react-icons/io";
+<IoMdStarHalf />
+
+plane
+import { BiSolidPlaneAlt } from "react-icons/bi";
+<BiSolidPlaneAlt />
+
+building
+import { FaBuilding } from "react-icons/fa6";
+<FaBuilding />
+
+globe
+import { HiGlobeAsiaAustralia } from "react-icons/hi2";
+<HiGlobeAsiaAustralia />
+
+facebook
+import { FaFacebook } from "react-icons/fa";
+<FaFacebook />
+
+twitter
+import { FaTwitter } from "react-icons/fa6";
+<FaTwitter />
+
+instagram
+import { FaInstagram } from "react-icons/fa";
+<FaInstagram />
+
+text
+
+header section start
+Travel
+
+nav -home -About us -destination -package -contact
+
+const navlinks = [
+{
+name:"home",
+path:""
+},
+{
+name:"About us",
+path:""
+},
+{
+name:"destination",
+path:""
+},
+{
+name:"package",
+path:""
+},
+{
+name:"contact",
+path:""
+},
+]
+
+button -> book now
+
+header section end
+
+hero section start
+
+span -> best destination around the world
+
+h1 --> Travel to the
+any corner
+of the world.
+
+p --> we can build the holiday of your dreams and
+make them unforgettable.
+
+hero section end
+
+Hero form start
+const HeroFormData = [
+{
+title:"destination",
+input:"Maldives",
+},
+{
+title:"date",
+input:"select date",
+},
+{
+title:"people",
+input:"how many peoples",
+},
+]
+span --> destination
+Maldives
+
+span -->date
+select date
+
+span -->people
+how many peoples
+
+Hero form end
+
+Destination
+
+span --> top destinations
+
+h2 --> explore top destination
+
+const DestinationData = [
+{
+image:"/public/user/user-01.png",
+title:"Istanbul,Turkey",
+price:"$750",
+rating:"",
+},
+{
+image:"/public/travel/image-02.jpeg",
+title:"sent martin,Bangladesh",
+price:"$640",
+rating:"",
+},
+{
+image:"/public/travel/image-03.jpeg",
+title:"Sydney, Australia",
+price:"$1200",
+rating:"",
+},
+{
+image:"/public/travel/image-04.jpeg",
+title:"Cox’s Bazar,Bangladesh",
+price:"$470",
+rating:"",
+},
+]
+how we work section start
+span --> how we work
+h3 --> we offer best services
+
+const ServicesData = [
+{
+icon:,
+heading:"choose destination",
+paragraph:"Work with our travel experts to create a customized itinerary that perfectly matches",
+},
+{
+icon:,
+heading:"five star Hotel",
+paragraph:"enjoy the ultimate in comfort and elegance at our curated selection of five-star hotels.",
+},
+{
+icon:,
+heading:"air ticketing",
+paragraph:"enjoy the ultimate in comfort and elegance at our curated selection of five-star hotels.",
+},
+]
+
+how we work section end
+
+TravelType section start
+
+span --> travel type
+
+h3 --> what type of travel
+do we specialized in?
+
+travelData = [
+{
+id:"",
+image:"/public/travelType/image-01.jpg",
+text:"Exploration",
+},
+{
+id:"",
+image:"/public/travelType/image-02.jpg",
+text:"Exploration",
+},
+{
+id:"",
+image:"/public/travelType/image-03.jpg",
+text:"Exploration",
+},
+]
+
+TravelType section end
+
+testimonials section start
+
+span --> testimonials
+what our clients say about us
+
+const reviewData = [
+{
+name:"Jimmy Tyson",
+review:"User-friendly and great adventure options. Could use more remote destinations and clearer pricing.",
+image:"/public/user/user-01.png",
+rating:"4.2",
+},
+{
+name:"Alexander",
+review:"Impressive luxury listings and detailed descriptions. Fix booking glitches and add more exclusive deals.",
+image:"/public/user/user-02.png",
+rating:"4.8",
+},
+{
+name:"Charlotte",
+review:"Family-friendly with useful reviews. Search filters are complex and the mobile experience needs improvement.",
+image:"/public/user/user-03.png",
+rating:"4.4",
+},
+{
+name:"",
+review:"Excellent solo travel resources and safety tips. Mobile navigation needs work and more solo packages would help.”Sophia",
+image:"/public/user/user-04.png",
+rating:"4.6",
+},
+]
+
+testimonials section end
+
+subscription section start
+
+subscribe Our newsletter &
+get Company news
+your email
+subscribe
+subscription section end
+
+Travel
+we can build the holiday of your dreams and
+make them unforgettable.
+
+const ContactData = [
+{
+heading:"Company",
+data= ["About US","DESTINATION","PACKAGES","CONTACT",]
+},
+{
+heading:"help",
+data= ["help/FAQ","book a flight","Cancel your flight","Account setup",]
+},
+{
+heading:"more",
+data= ["domestic flights",
+"investor relations",
+"partnerships",
+"jobs",
+]
+},
+{
+heading:"terms",
+data= ["terms & conditions","privacy Policy","terms of use","accessibility",]
+},
+]
+Company
+"About US",
+"DESTINATION",
+"PACKAGES",
+"CONTACT",
+
+help
+"help/FAQ",
+"book a flight",
+"Cancel your flight",
+"Account setup",
+
+more
+"domestic flights",
+"investor relations",
+"partnerships",
+"jobs",
+
+terms
+"terms & conditions",
+"privacy Policy",
+"terms of use",
+"accessibility",
+
+credits
+©travel 2024. All rights reserved

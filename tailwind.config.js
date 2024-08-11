@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // font family
+      fontFamily:{
+        "poppins":'var(--font-poppins)',
+        "merriweather":'var(--font-merriweather)',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
