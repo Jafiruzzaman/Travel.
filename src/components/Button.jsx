@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({
+  text,style
+}) => {
   return (
-    <div>Button</div>
+    <button className={`${style} px-5 py-2 capitalize font-semibold rounded-md`}>{text}</button>
   )
 }
 

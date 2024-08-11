@@ -1,8 +1,8 @@
 colors:
 bgPrimary:"#FFF9EF",
-bgSecondary: "#FFEFE3";
+bgSecondary: "#FFEFE3",
 orangePrimary:"#FF682C",
-heading:"#2A2848"
+heading:"#2A2848",
 paragraph:"#27244499",
 greenPrimary:"#41B4AE",
 
