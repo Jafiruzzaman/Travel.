@@ -20,3 +20,20 @@ export const navlinks = [
     path: "",
   },
 ];
+export const HeroFormData = [
+  {
+  title:"destination",
+  input:"Maldives",
+  type:"text",
+  },
+  {
+  title:"date",
+  type:"date",
+  input:"select date",
+  },
+  {
+  title:"people",
+  type:"text",
+  input:"how many peoples",
+  },
+  ]

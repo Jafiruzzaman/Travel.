@@ -10,7 +10,7 @@ const DesktopNav = () => {
           {
             navlinks.map((item,index)=>{
               return(
-                <Link href={"/"} key={index} className='text-lg hover:bg-orangePrimary px-5 text-balance hover:text-white hover:transition-all py-2 hover:rounded-md text-heading capitalize font-medium '>{item.name}</Link>
+                <Link href={"/"} key={index} className='text-lg hover:bg-white px-5 text-balance hover:text-orangePrimary hover:shadow-md hover:transition-all py-2 hover:rounded-md text-heading capitalize font-medium '>{item.name}</Link>
               )
             })
           }

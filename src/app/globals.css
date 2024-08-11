@@ -4,9 +4,15 @@
 
 @layer base{
   body{
-    @apply font-poppins
+    @apply font-poppins bg-bgPrimary
   }
   .h1{
-    @apply font-merriweather text-6xl
+    @apply font-merriweather text-8xl font-black capitalize xl:max-w-[43rem] xl:my-4
+  }
+  .highLight{
+    @apply text-orangePrimary
+  }
+  .p{
+    @apply lg:text-base text-sm capitalize text-paragraph
   }
 }

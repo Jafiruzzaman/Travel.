@@ -8,7 +8,7 @@ import blob from "/public/svg/blob.svg";
 import plane from "/public/plane.png";
 const Header = () => {
   return (
-    <header className="bg-bgPrimary py-4 md:py-5 lg:py-6 xl:py-8">
+    <header className="bg-bgPrimary py-4 md:py-5 lg:py-6 xl:py-8 z-10">
       <nav className="container mx-auto flex items-center justify-between z-10">
         {/* logo */}
         <Link href={"/"} className="flex items-center gap-1">
@@ -28,8 +28,8 @@ const Header = () => {
             text={`book now`}
           />
         </div>
-        <div className="absolute top-0 right-0 -z-0 w-fit">
-          <Image src={blob} alt="blob" className="xl:w-fit h-full" />
+        <div className="absolute top-0 right-0 w-fit">
+          <Image src={blob} alt="blob" className="xl:w-fit h-full " />
         </div>
       </nav>
     </header>
