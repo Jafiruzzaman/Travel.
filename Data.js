@@ -22,18 +22,49 @@ export const navlinks = [
 ];
 export const HeroFormData = [
   {
-  title:"destination",
-  input:"Maldives",
-  type:"text",
+    title: "destination",
+    input: "Maldives",
+    type: "text",
   },
   {
-  title:"date",
-  type:"date",
-  input:"select date",
+    title: "date",
+    type: "date",
+    input: "select date",
   },
   {
-  title:"people",
-  type:"text",
-  input:"how many peoples",
+    title: "people",
+    type: "text",
+    input: "how many peoples",
+  },
+];
+import imageOne from "/public/travel/image-01.jpeg"
+import imageTwo from "/public/travel/image-02.jpeg"
+import imageThree from "/public/travel/image-03.jpeg"
+import imageFour from "/public/travel/image-04.jpeg"
+
+export const DestinationData = [
+  {
+  image:imageOne,
+  title:"Istanbul,Turkey",
+  price:"$750",
+  rating:"",
+  },
+  {
+  image:imageTwo,
+  title:"sent martin,Bangladesh",
+  price:"$640",
+  rating:"",
+  },
+  {
+  image:imageThree,
+  title:"Sydney, Australia",
+  price:"$1200",
+  rating:"",
+  },
+  {
+  image:imageFour,
+  title:"Cox’s Bazar,Bangladesh",
+  price:"$470",
+  rating:"",
   },
   ]

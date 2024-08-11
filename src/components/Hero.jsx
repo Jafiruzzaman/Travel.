@@ -4,14 +4,14 @@ import plane from "/public/plane.png"
 import HeroForm from "./HeroForm";
 const Hero = () => {
   return (
-    <main className=" z-20 xl:py-12">
+    <main className=" z-20 xl:my-12">
       <section className="container mx-auto  flex items-center justify-between ">
         {/* text */}
         <div className="">
           <span className="text-orangePrimary font-semibold capitalize text-base">
             best destination around the world
           </span>
-          <h1 className="h1 text-balance text-heading">
+          <h1 className="h1 xl:text-8xl text-heading">
             Travel to the any corner <br />
             of <span className="highLight">the world</span>.
           </h1>
